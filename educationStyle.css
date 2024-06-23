@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar h1 {
+    margin-left: 50px;
+    color: white;
+    font-size: 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+}
+
+.navbar-logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-menu {
+    list-style: none;
+    margin-right: 30px;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-menu li {
+    margin-left: 30px;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.navbar-menu a:hover {
+    color: #5ab1ff;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    margin-top: 50px;
+}
+#activelink {
+    color: #5ab1ff;
+    font-weight: bold;
+}
+.osnovno{
+    display: flex;
+    width: 850px;
+    height: 310px;
+    margin-right: 500px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 1px solid #333;
+    position: relative;
+    top: -30px;
+}
+.thtnaslov{
+    width: 400px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 50px;
+}
+.thtpar{
+    width: 500px;
+    text-align: justify;
+    margin-right: 20px;
+    font-size: 16px;
+}
+.thtph{
+    width: 490px;
+    height: 300px;
+}
+.thtnaslov, .thtpar{
+    position: relative;
+    top: -10px;
+}
+/* sredno */
+.sredno{
+    display: flex;
+    margin-top: 20px;
+    width: 850px;
+    height: 310px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 1px solid #333;
+    position: relative;
+    top: -30px;
+}
+.srednonaslov{
+    width: 400px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 50px;
+}
+.srednopar{
+    width: 500px;
+    text-align: justify;
+    margin-left: 20px;
+    font-size: 16px;
+}
+.srednoph{
+    width: 490px;
+    height: 300px;
+}
+.srednonaslov, .srednopar{
+    position: relative;
+    top: -10px;
+}
+/*uni*/
+.uni{
+    display: flex;
+    width: 850px;
+    height: 310px;
+    margin-right: 500px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    position: relative;
+    top: -10px;
+}
+.uninaslov{
+    width: 400px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}
+.unipar{
+    width: 500px;
+    text-align: justify;
+    margin-right: 20px;
+    font-size: 16px;
+}
+.uniph{
+    width: 490px;
+    height: 300px;
+}
+.uninaslov, .unipar{
+    position: relative;
+    top: -10px;
+}

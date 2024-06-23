@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar h1 {
+    margin-left: 50px;
+    color: white;
+    font-size: 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+}
+
+.navbar-logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-menu {
+    list-style: none;
+    margin-right: 30px;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-menu li {
+    margin-left: 30px;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+.navbar-menu a:hover {
+    color: #5ab1ff;
+}
+
+.wrap {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    margin-top: 50px;
+}
+
+.pfp {
+    width: 385px;
+    height: 395px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.introPar {
+    padding: 5px;
+    text-align: justify;
+    line-height: 25px;
+    font-size: 16px;
+    position: relative;
+    top: -15px;
+}
+.introPar a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #484848;
+}
+.introPar a:hover{
+    font-weight: bold;
+    color: #36a2ff;
+}
+.welcome {
+    font-size: 25px;
+    display:inline-block;
+    width: 100%;
+    line-height: 20px;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    top: 20px;
+}
+
+#activelink {
+    color: #5ab1ff;
+    font-weight: bold;
+}
